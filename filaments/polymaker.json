@@ -1881,7 +1881,7 @@
       {
         "name": "Panchroma™ Matte (Formerly PolyTerra™) {color_name}",
         "material": "PLA",
-        "density": 1.24,
+        "density": 1.37,
         "weights": [
             {
                 "weight": 1000,
@@ -1896,8 +1896,14 @@
             1.75,
             2.85
         ],
-        "extruder_temp": 210,
-        "bed_temp": 50,
+  	"extruder_temp_range": [
+          190,
+          230
+        ],
+        "bed_temp_range": [
+          25,
+          60
+        ],
         "colors": [
           {
             "name": "Arctic Teal",
@@ -2057,7 +2063,7 @@
         "name": "Panchroma™ Marble (Formerly PolyTerra™ Marble) {color_name}",
         "material": "PLA",
         "pattern": "marble",
-        "density": 1.24,
+        "density": 1.17,
         "weights": [
           {
             "weight": 1000.0,
@@ -2096,6 +2102,138 @@
           {
             "name": "Sandstone",
             "hex": "c6c781"
+          }
+        ]
+      },
+      {
+        "name": "Panchroma™ CoPE {color_name}",
+        "material": "CoPE",
+        "density": 1.30,
+        "weights": [
+            {
+                "weight": 1000,
+                "spool_weight": 140
+            }
+        ],
+        "diameters": [
+            1.75
+        ],
+        "extruder_temp_range": [
+          190,
+          230
+        ],
+        "bed_temp_range": [
+          25,
+          60
+        ],
+        "colors": [
+          { 
+            "name": "Black", 
+            "hex": "080A0D" 
+          },
+          { 
+            "name": "Dark Grey", 
+            "hex": "474648" 
+          },
+          { 
+            "name": "Steel Grey", 
+            "hex": "616469" 
+          },
+          { 
+            "name": "Grey", 
+            "hex": "8C9099" 
+          },
+          { 
+            "name": "Brown", 
+            "hex": "55331A" 
+          },
+          { 
+            "name": "Tan", 
+            "hex": "A79E82" 
+          },
+          { 
+            "name": "Beige", 
+            "hex": "DABAA5" 
+          },
+          { 
+            "name": "Cream", 
+            "hex": "EED1A8" 
+          },
+          { 
+            "name": "White", 
+            "hex": "E2DEDB" 
+          },
+          { 
+            "name": "Cold White", 
+            "hex": "D9DFE5" 
+          },
+          { 
+            "name": "Pink", 
+            "hex": "F1A1AF" 
+          },
+          { 
+            "name": "Magenta", 
+            "hex": "F24574" 
+          },
+          { 
+            "name": "Red", 
+            "hex": "E72F1D" 
+          },
+          { 
+            "name": "Wine Red", 
+            "hex": "D60212" 
+          },
+          { 
+            "name": "Orange", 
+            "hex": "F67405" 
+          },
+          { 
+            "name": "Yellow", 
+            "hex": "F3B400" 
+          },
+          { 
+            "name": "Lemon Yellow", 
+            "hex": "EED231" 
+          },
+          { 
+            "name": "Lime Green", 
+            "hex": "D7D602" 
+          },
+          { 
+            "name": "Olive Green", 
+            "hex": "938903" 
+          },
+          { 
+            "name": "Green", 
+            "hex": "06924D" 
+          },
+          { 
+            "name": "Jungle Green", 
+            "hex": "4E742D" 
+          },
+          { 
+            "name": "Olive Drab Green", 
+            "hex": "575B54" 
+          },
+          { 
+            "name": "Polymaker Teal", 
+            "hex": "4CC0C7" 
+          },
+          { 
+            "name": "Aqua Blue", 
+            "hex": "5FBCDD" 
+          },
+          { 
+            "name": "Stone Blue", 
+            "hex": "477BA2" 
+          },
+          { 
+            "name": "Blue", 
+            "hex": "003776" 
+          },
+          { 
+            "name": "Purple", 
+            "hex": "6C47B2" 
           }
         ]
       }
